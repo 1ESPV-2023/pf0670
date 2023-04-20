@@ -104,15 +104,61 @@ botoes[0].addEventListener("click", ()=>{
 
 
 
+
 // function acender() {
     
-//     const btn = document.querySelector(".botao");
+    //     const btn = document.querySelector(".botao");
+    
+    //     if(btn.textContent == "LIGAR"){
+        //         imgLampada.src = "./img/pic_bulbon.gif";
+        //         btn.textContent = "DESLIGAR";
+        //     }else{
+            //         imgLampada.src = "./img/pic_bulboff.gif";
+            //         btn.textContent = "LIGAR";
+            //     }
+            // }
+            
 
-//     if(btn.textContent == "LIGAR"){
-//         imgLampada.src = "./img/pic_bulbon.gif";
-//         btn.textContent = "DESLIGAR";
-//     }else{
-//         imgLampada.src = "./img/pic_bulboff.gif";
-//         btn.textContent = "LIGAR";
-//     }
-// }
+// //Tratando Datas e hora com Javascript
+
+// // Array com os nomes dos meses do ano:
+// var mes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho","Julho", "Agosto","Setembro", "Outubro","Novembro","Dezembro"]
+// console.log(mes);
+// //Vamos pegar os arrays sempre iniciando do ZERO
+// console.log(mes[0]);
+
+// var hoje = new Date(); //Data e hora atuais
+// console.log(hoje);
+
+// var novadata = new Date (2015,11,21); //atribuindo data
+// console.log(novadata);
+
+// var milissegundos
+// new Date (1488569383588); //milissegundos desde 01/01/70
+// console.log(milissegundos);
+
+// var dataDeString = new Date("2015/11/21"); //passando string
+// console.log(dataDeString);
+
+// // Invocando o objeto Date como uma função (sem operador new):
+// document.write("Data: ", Date (), "");
+// document.write("Data em milissegundos: ", Date.now(), "");
+
+
+// var hoje = new Date(); //Data e hora atuais
+// var novadata = new Date(2015,11,21); //atribuindo data
+// var milissegundos = new Date (1488569383588); //milissegundos desde 01/01/70
+// var dataDeString = new Date("2015/11/21"); //passando string
+// // Exibindo os valores no navegador:
+// document.write("Mês:", hoje.getMonth(), "");
+// document.write("Ano:", hoje.getFullYear(), "");
+// document.write("Dia do mês: ", hoje.getDate(), "");
+// document.write("Dia da semana: ", hoje.getDay(), "");
+// document.write("Hora: ", hoje.getHours (), "") ;
+// document.write("Minutos: ", hoje.getMinutes (), "");
+// document.write("Segundos: ", hoje.getSeconds (), "");
+// document.write("Milissegundos desde 01/01/70: ", hoje.getTime(), "");
+// document.write("Ano (obtido a partir dos millisegundos): ", milissegundos.getFullYear());
+// document.write("Data atribuída na criação do objeto: ", novadata.getDate());
+// document.write("Data passada por string: ", dataDeString.getDate());
+// document.write("Data passada por string em milissegundos: ", dataDeString.getTime());

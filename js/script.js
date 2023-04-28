@@ -67,3 +67,52 @@ function mudaBanner1() {
 }
 
 mudaBanner1();
+
+
+const botoes = document.querySelectorAll("button");
+
+botoes[0].addEventListener("click", ()=>{
+    const imgLampada = document.querySelector(".conteudo img");
+
+    if(this.textContent == "LIGAR"){
+        imgLampada.src = "./img/pic_bulbon.gif";
+        this.textContent = "DESLIGAR";
+    }else{
+        imgLampada.src = "./img/pic_bulboff.gif";
+        this.textContent = "LIGAR";
+    }
+
+});
+
+// botoes.forEach((botao)=>{
+//     const imgLampada = document.querySelector(".conteudo img");
+//     if(botao.textContent == "LIGAR"){
+        
+//         botao.addEventListener("click", ()=>{
+//             imgLampada.src = "./img/pic_bulbon.gif";
+//             botao.textContent = "DESLIGAR";
+//         });
+
+//     }else if(botao.textContent == "DESLIGAR"){
+        
+//         botao.addEventListener("click", ()=>{
+//             imgLampada.src = "./img/pic_bulboff.gif";
+//             botao.textContent = "LIGAR";
+//         });
+//     }
+// });
+
+
+
+// function acender() {
+    
+//     const btn = document.querySelector(".botao");
+
+//     if(btn.textContent == "LIGAR"){
+//         imgLampada.src = "./img/pic_bulbon.gif";
+//         btn.textContent = "DESLIGAR";
+//     }else{
+//         imgLampada.src = "./img/pic_bulboff.gif";
+//         btn.textContent = "LIGAR";
+//     }
+// }

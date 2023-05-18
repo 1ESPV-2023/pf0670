@@ -1,0 +1,12 @@
+
+div{
+    user-select: none;
+}
+
+.fa-eye{
+    cursor: pointer;
+}
+
+/* label[for='idSenha']{
+    background-color: blue;
+} */
